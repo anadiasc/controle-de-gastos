@@ -60,3 +60,87 @@ main section{
     font-size: 16px;
 }
 
+.entradaOrcamento{}
+.entradaOrcamento h2{
+    font-weight: bold;
+    border-bottom: 1px solid #cecece;
+    padding-bottom: 5px;
+}
+
+.entradaOrcamento input{}
+.entradaOrcamento button{}
+
+.entradaDespesa{}
+.entradaDespesa h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.entradaDespesa input{}
+.entradaDespesa button{}
+
+.containerDespesas{}
+
+.containerDespesas_header {
+    display: flex;
+    margin: 40px 0;
+}
+.containerDespesas_header p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.containerDespesas .tituloDespesa{
+    margin-right: 150px;
+}
+
+.containerDespesas__lista{}
+.containerDespesas__lista li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ecfbef;
+    color: #78ce71;
+    font-weight: bold;
+    padding: 30px 20px;
+    border-radius: 2px;
+}
+.containerDespesas__lista li h3{}
+.containerDespesas__lista li p{}
+.containerDespesas__lista li img{}
+
+/* SEÇÃO RESULTADOS */
+.resultados{
+    width: 300px;
+}
+
+.resultados div{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.resultados div h3{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.resultados div p{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.resultadosOrcamento{}
+.resultadosOrcamento h3{}
+.resultadosOrcamento p{
+    color: #78ce71;
+}
+
+.resultadosDespesas{}
+.resultadosDespesas h3{}
+.resultadosDespesas p{
+    color: #e44f3c;
+}
+
+.resultadosSaldo{}
+.resultadosSaldo h3{}
+.resultadosSaldo p{
+    color: #64d2ff;
+}
